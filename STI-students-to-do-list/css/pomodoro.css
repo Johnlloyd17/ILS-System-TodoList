@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+      .profile_size {
+        height: 2.6rem;
+        width: 2.6rem;
+        /*filter: blur(100%);*/
+        /*transform: scale(1);*/
+        border-radius: 50%;
+        opacity: 9;
+      }
+
+
+      .timer {
+        text-align: center;
+        width: 20rem;
+        height: 20rem;
+        border: 5px solid #e0e0e0;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      .fa-play,
+      .fa-redo-alt {
+        /*color: #e3f6f5;*/
+        border: 2px solid transparent;
+        padding: 1rem;
+      }
+      .fa-play,
+      .fa-redo-alt:hover {
+        border-radius: 2rem;
+        /*color: #bae8e8;*/
+        border: 2px solid #bae8e8;
+        transition: 0.3s ease; 
+      }
+
+      .myrow {
+        width: 100%;
+      }
+
+      .showmessage {
+
+        display: block;
+        padding: 1rem 0;
+        color: #272343;
+        background: #e3f6f5;
+        border-radius: 0.5rem;
+        transition: 0.5s ease;
+
+      }
